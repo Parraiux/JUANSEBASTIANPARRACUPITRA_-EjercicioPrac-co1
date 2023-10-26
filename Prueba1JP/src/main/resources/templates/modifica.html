@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/199/xhtml">
+    <head th:replace="~{layout/plantilla :: head}">
+        <title>Estudiantes</title>
+    </head>
+    <body>
+         <header th:replace="~{template :: header}"/>
+         
+        <section th:replace="~{estudiantes/fragmentos :: editarEstudiante}"/>
+
+         <footer th:replace="~{template :: footer}"/>
+    </body>
+</html>
